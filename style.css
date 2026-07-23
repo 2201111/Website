@@ -36,11 +36,23 @@
 div.logo{
     position: absolute;
     left: 20px;
-    up: 10px;
+    top: 10px;
 }
 
 div.account{
     position: absolute;
     right: 20px;
-    up: 10px;
+    top: 10px;
+}
+
+div.banner-box{
+    position: relative;
+    text-align: center;
+}
+
+div.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
