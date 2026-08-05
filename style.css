@@ -73,3 +73,7 @@ div.banner-text{
     height: 580px;
     width: 400px;
 }
+
+.align-left{
+    text-align: left;
+}
