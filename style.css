@@ -31,8 +31,11 @@
 .table-center{
     margin-right: auto;
     margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: center;
 }
+
 
 div.logo{
     position: absolute;
@@ -43,7 +46,7 @@ div.logo{
 div.account{
     position: absolute;
     right: 20px;
-    top: 10px;
+    top: 25px;
 }
 
 div.banner-box{
@@ -76,4 +79,32 @@ div.banner-text{
 
 .align-left{
     text-align: left;
+}
+
+.header-footer{
+    background: #26435D;
+    height: 120px;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #2F4550;
+}
+
+button{
+    background: #586F7C;
+    color: #F4F4F9;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+
+.nav-buttons{
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
