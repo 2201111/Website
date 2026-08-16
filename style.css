@@ -1,13 +1,30 @@
+h1{
+    font-family: 'Sora';
+    font-weight: 900;
+}
+
+p{
+    font-family: 'Inter';
+}
+
+h2{
+    font-family: 'Inter';
+    font-weight: 900;
+}
+
 .homeImage{
     width: 40vw;
     height: 40%;
     border-radius: 10px;
     display: block;
+    border: 0;
 }
 
 .aboutImage{
     width: 40vw;
     height: 40%;
+    display: block;
+    border: 0;
 }
 
 .logo-pic{
@@ -111,6 +128,19 @@ button{
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+button:hover{
+    background: #2e4655;
+    color: #F4F4F9;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    outline: 1px solid black;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 .display-table{
     margin-left: 10%;
     margin-right: 10%;
@@ -132,11 +162,22 @@ button{
 }
 
 .cell{
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #F4F4F9;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    border-collapse: collapse;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-spacing: 0;
+}
+
+.cell-collapse{
+    padding: 0;
+    border-spacing: 0;
+}
+
+.cell-text{
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
 }
