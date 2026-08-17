@@ -1,10 +1,12 @@
 h1{
     font-family: 'Sora';
     font-weight: 900;
+    font-size: 45px;
 }
 
 p{
     font-family: 'Inter';
+    font-size: 18px;
 }
 
 h2{
@@ -65,7 +67,7 @@ div.logo{
 div.account{
     position: absolute;
     right: 20px;
-    top: 25px;
+    top: 10px;
 }
 
 div.banner-box{
@@ -90,11 +92,14 @@ div.banner-text{
     height: 300px;
     width: 300px;
     border-radius: 300px;
+    border: 1px solid black;
 }
 
 .houseSitter{
-    height: 580px;
-    width: 400px;
+    height: 50vh;
+    width: 20vw;
+    display: block;
+    border: 0;
 }
 
 .align-left{
@@ -112,7 +117,7 @@ div.banner-text{
 body{
     margin: 0;
     padding: 0;
-    background: #2F4550;
+    background: #2f4550;
 }
 
 button{
@@ -181,3 +186,27 @@ button:hover{
     padding-left: 3%;
     padding-right: 3%;
 }
+
+.banner-text{
+    background-color: #F4F4F9b3;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-radius: 10px;
+}
+
+.houseSitterSpacing{
+
+    border-spacing: 2vw;
+}
+
+.contact-cell{
+    border-radius: 15px;
+    background-color: #F4F4F9;
+    padding: 20px;
+    overflow: hidden;
+    border: 2px solid black;
+    border-spacing: 0;
+}
+
