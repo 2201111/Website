@@ -1,3 +1,41 @@
+<?php
+
+session_start();
+
+$login_error = "";
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+
+    require_once 'database.php';
+
+    $username = $_POST['uname'];
+    $password = $_POST['psw'];
+
+    $stmt = $db->prepare(
+        "SELECT * FROM Credentials WHERE Username = ?"
+    );
+
+    $stmt->execute([$username]);
+
+    $user = $stmt->fetch();
+
+    if ($user && $password === $user['Password']) {
+
+        $_SESSION['user_id'] = $user['ID'];
+        $_SESSION['username'] = $user['Username'];
+
+        header("Location: loggedIn.html");
+        exit;
+
+    } else {
+
+        $login_error = "Incorrect username or password.";
+
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -36,7 +74,7 @@
             </div>
         </div>
 
-        <form action="login-process.php" method="POST">
+        <form action="account.php" method="POST">
             <table class="table-center cell-form">
                 <tr class="align-left">
                     <td><label for="uname"><b>Username</b></label><br><input class="login-box" type="text" id="uname" placeholder="Enter Username" name="uname" required></td>
@@ -47,7 +85,12 @@
                 </tr>
                 <td><br></td>
                 <tr class="align-left">
-                    <td><button type="submit">Login</button></td>
+                    <td>
+                        <button type="submit">Login</button>
+                        <?php if ($login_error): ?>
+                            <p class="login-error"><?php echo $login_error; ?></p>
+                        <?php endif; ?>
+                    </td>
                 </tr>
             </table>
         </form>
