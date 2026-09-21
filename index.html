@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trusted House sitters</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Sora' rel='stylesheet'>
-</head>
-<body>
-    <!--Position of the logo-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trusted House sitters</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Sora' rel='stylesheet'>
+    </head>
+    <body>
+        
+        <!--Logo that links to the home page-->
 		<div class="logo">
 		  <a href="index.html"><img class="logo-pic" src="images/Logo.png" alt="TrustedHouseSitters"></a>
 		</div>
 		
-		<!--Section header footer creates a brown background-->
+		<!--Section header footer creates a blue background-->
 		<section class="header-footer">			
 			<br>
+            <!--Navigation bar with buttons that link to the other pages-->
 			<div class="navbar">
                 <div class="nav-buttons"><button type="button" onclick="document.location='index.html'">Home</button></div>
-                <div class="nav-buttons"><button type="button" onclick="document.location='HouseSitters.html'">House sitters</button></div>
+                <div class="nav-buttons"><button type="button" onclick="document.location='houseSitters.html'">House sitters</button></div>
                 <div class="nav-buttons"><button type="button" onclick="document.location='contact.html'">Contact</button></div>
                 <div class="nav-buttons"><button type="button" onclick="document.location='about.html'">About us</button></div>
 			</div>
 		</section>
 
+        <!--Account icon that links to the account page-->
         <div class="account">
 		    <a href="account.php"><img class="icon" src="images/icon.png" alt="Account"></a>
 		</div>
         
+        <!--Banner image and banner text-->
         <div class="banner-box">
             <img class="banner" src="images/bannerHome.jpg" alt="Banner">
             <div class="banner-text">
@@ -36,12 +40,15 @@
             </div>
         </div>
         
+        <!--Body content section-->
         <section class="body-content">
+            <!--Table to display the three sections of the home page-->
             <table class="table-center display-table">
                 <tr>
                     <td>
                         <table class="cell">
                             <tr>
+                                <!--Image on the left and text on the right for the first section-->
                                 <td class="cell-collapse"><img class="homeImage" src="images/homeImage1.jpg" alt="Home Image 1"></td>
                                 <td class="cell-text">
                                     <h2>Your Home, Safe While You’re Away</h2>
@@ -56,6 +63,7 @@
                     <td>
                         <table class="cell">
                             <tr>
+                                <!--Text on the left and image on the right for the second section-->
                                 <td class="cell-text">
                                     <h2>Simple From Start to Finish</h2>
                                     <p>Create a listing with your travel dates, home details, and any pet care instructions. Sitters can then apply directly, allowing you to browse profiles, reviews, and experience before choosing the perfect match. Once confirmed, you can travel knowing your home is being looked after by someone reliable and experienced.
@@ -74,6 +82,7 @@
                     <td>
                         <table class="cell">
                             <tr>
+                                <!--Image on the left and text on the right for the third section-->
                                 <td class="cell-collapse"><img class="homeImage" src="images/homeImage3.jpg" alt="Home Image 3"></td>
                                 <td class="cell-text">
                                     <h2>Trusted Care for Homes and Pets</h2>
@@ -91,14 +100,18 @@
             </table>
         </section>
     </body>
+
+    <!--Footer section with social media links-->
     <footer>
         <section class="header-footer">
-            <table class="socials">
-                <tr>
-                    <td><a href="https://www.instagram.com"><img class="socials-img" src="images/instagram.jpg" alt="Instagram"></a></td>
-                    <td><a href="https://www.facebook.com"><img class="socials-img" src="images/facebook.jpg" alt="Facebook"></a></td>
-                </tr>
-            </table>
+            <div class="socials">
+                <table>
+                    <tr>
+                        <td><a href="https://www.instagram.com"><img class="socials-img" src="images/instagram.jpg" alt="Instagram"></a></td>
+                        <td><a href="https://www.facebook.com"><img class="socials-img" src="images/facebook.jpg" alt="Facebook"></a></td>
+                    </tr>
+                </table>
+            </div>
         </section>
     </footer>
 </html>

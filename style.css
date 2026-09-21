@@ -1,19 +1,23 @@
+/* Style for the headings with the h1 tag on the website */
 h1{
     font-family: 'Sora';
     font-weight: 900;
     font-size: 45px;
 }
 
+/* Style for the paragraphs on the website */
 p{
     font-family: 'Inter';
     font-size: 18px;
 }
 
+/* Style for the headings with the h2 tag on the website */
 h2{
     font-family: 'Inter';
     font-weight: 900;
 }
 
+/* Style for the images on the home page */
 .homeImage{
     width: 40vw;
     height: 40%;
@@ -22,6 +26,7 @@ h2{
     border: 0;
 }
 
+/* Style for the images on the about page */
 .aboutImage{
     width: 40vw;
     height: 40%;
@@ -29,28 +34,33 @@ h2{
     border: 0;
 }
 
+/* Style for the logo image */
 .logo-pic{
     width: 10vw;
     height: 10vh;
 }
 
+/* Style for the social media logos */
 .socials-img{
     width: 80px;
     height: 80px;
 }
 
+/* Style for the icon logo icon */
 .icon{
     width: 6vw;
     height: auto;
 }
 
+/* Style for the banner image */
 .banner{
     width: 100%;
-    height: 650px;
+    height: auto;
     display: block;
     border: 1px solid black;
 }
 
+/* Style for the table centering of a table */
 .table-center{
     margin-right: auto;
     margin-left: auto;
@@ -59,25 +69,28 @@ h2{
     text-align: center;
 }
 
-
+/* Style for the logo box */
 div.logo{
     position: absolute;
     left: 20px;
     top: 10px;
 }
 
+/* Style for the account icon box */
 div.account{
     position: absolute;
     right: 20px;
     top: 20px;
 }
 
+/* Style for the banner box container */
 div.banner-box{
     position: relative;
     text-align: center;
     width: 100%;
 }
 
+/* Style for the banner text container */
 div.banner-text{
     position: absolute;
     top: 50%;
@@ -85,11 +98,13 @@ div.banner-text{
     transform: translate(-50%, -50%);
 }
 
+/* Style for the placeholder element in tables */
 .place-holder {
 	width: 50px;
 	height: 10px;
 }
 
+/* Style for the contact image */
 .contactImg{
     height: 300px;
     width: 300px;
@@ -98,6 +113,7 @@ div.banner-text{
     margin-bottom: 15%;
 }
 
+/* Style for the secondary contact image */
 .SecondaryContactImg{
     height: 300px;
     width: 300px;
@@ -105,6 +121,7 @@ div.banner-text{
     border: 1px solid black;
 }
 
+/* Style for the house sitter images */
 .houseSitter{
     height: 50vh;
     width: 20vw;
@@ -112,10 +129,12 @@ div.banner-text{
     border: 0;
 }
 
+/* Style for the text alignment to the left */
 .align-left{
     text-align: left;
 }
 
+/* Style for the header and footer sections of the page */
 .header-footer{
     background: #26435D;
     height: 120px;
@@ -124,18 +143,20 @@ div.banner-text{
     border-bottom: 2px solid black;
 }
 
+/* Style for the body section of the page */
 body{
     margin: 0;
     padding: 0;
     background: #2f4550;
 }
 
+/* Style for aLL buttons */
 button{
     background: #586F7C;
     color: #F4F4F9;
     border-radius: 10px;
     font-family: 'Inter';
-    font-size: 20px;
+    font-size: 1.8vw;
     border: none;
     padding: 10px;
     font-weight: bold;
@@ -143,12 +164,13 @@ button{
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+/* Style for aLL buttonS when hovered over */
 button:hover{
     background: #2e4655;
     color: #F4F4F9;
     border-radius: 10px;
     font-family: 'Inter';
-    font-size: 20px;
+    font-size: 1.8vw;
     border: none;
     padding: 10px;
     font-weight: bold;
@@ -156,6 +178,7 @@ button:hover{
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+/* Style for main display tables */
 .display-table{
     margin-left: 10%;
     margin-right: 10%;
@@ -163,10 +186,12 @@ button:hover{
     margin-bottom: 3%;
 }
 
+/* Style for the navigation buttons container */
 .nav-buttons{
     text-align: center;
 }
 
+/* Style for the navigation bar */
 .navbar{
     position: relative;
     display: flex;
@@ -174,8 +199,10 @@ button:hover{
     left: 25vw;
     justify-content: space-evenly;
     width: 50vw;
+    flex-direction: row;
 }
 
+/* Style for the cells that contain content */
 .cell{
     border-radius: 15px;
     background-color: #F4F4F9;
@@ -185,11 +212,13 @@ button:hover{
     border-spacing: 0;
 }
 
+/* Collapses all content in cells that this is applied to */
 .cell-collapse{
     padding: 0;
     border-spacing: 0;
 }
 
+/* Style for the form container */
 .cell-form{
     border-radius: 15px;
     background-color: #F4F4F9;
@@ -202,12 +231,14 @@ button:hover{
     width: 40%;
 }
 
+/* Style for the text inside the cells */
 .cell-text{
     text-align: center;
     padding-left: 3%;
     padding-right: 3%;
 }
 
+/* Style for the banner text */
 .banner-text{
     background-color: #F4F4F9b3;
     padding-top: 0.1%;
@@ -217,11 +248,12 @@ button:hover{
     border-radius: 10px;
 }
 
+/* Style for the house sitter spacing from each other*/
 .houseSitterSpacing{
-
     border-spacing: 2vw;
 }
 
+/* Style for the contact info container */
 .contact-cell{
     border-radius: 15px;
     background-color: #F4F4F9;
@@ -233,6 +265,7 @@ button:hover{
     margin-bottom: 10%
 }
 
+/* Style for the login form container */
 .login-box{
     width: 95%;
     padding: 10px;
@@ -241,13 +274,21 @@ button:hover{
     border-radius: 5px;
 }
 
+/* Style for the login form input boxes */
 label{
     font-family: 'Sora';
     font-weight: 900;
     font-size: 20px;
 }
 
+/* Style for the login error message */
 .login-error {
     color: red;
     margin-top: 10px;
+}
+
+/*The size of the socials box*/
+div.socials{
+    display: flex;
+    gap: 20px;
 }

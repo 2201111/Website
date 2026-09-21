@@ -9,26 +9,28 @@
         <link href='https://fonts.googleapis.com/css?family=Sora' rel='stylesheet'>
     </head>
     <body>
-    <!--Position of the logo-->
+    <!--Logo in the top left corner-->
 		<div class="logo">
 		  <a href="index.html"><img class="logo-pic" src="images/Logo.png" alt="TrustedHouseSitters"></a>
 		</div>
-		
-		<!--Section header footer creates a brown background-->
+
+		<!--Account icon in the top right corner-->
+		<div class="account">
+		    <a href="account.php"><img class="icon" src="images/icon.png" alt="Account"></a>
+		</div>
+
+		<!--Section header footer creates a blue background-->
 		<section class="header-footer">	
             <br>		
             <div class="navbar">
                 <div class="nav-buttons"><button type="button" onclick="document.location='index.html'">Home</button></div>
-                <div class="nav-buttons"><button type="button" onclick="document.location='HouseSitters.html'">House sitters</button></div>
+                <div class="nav-buttons"><button type="button" onclick="document.location='houseSitters.html'">House sitters</button></div>
                 <div class="nav-buttons"><button type="button" onclick="document.location='contact.html'">Contact</button></div>
                 <div class="nav-buttons"><button type="button" onclick="document.location='about.html'">About us</button></div>
 			</div>
 		</section>
-
-        <div class="account">
-		    <a href="account.html"><img class="icon" src="images/icon.png" alt="Account"></a>
-		</div>
         
+        <!--Banner image with text-->
         <div class="banner-box">
             <img class="banner" src="images/bannerHouseSitter.jpg" alt="Banner">
             <div class="banner-text">
@@ -36,6 +38,7 @@
             </div>
         </div>
 
+        <!--Information about house sitters-->
         <table class="table-center display-table">
             <tr>
                 <td>
@@ -52,12 +55,14 @@ Our sitters come from a wide range of backgrounds, including experienced pet own
                 </td>   
             </tr>
         </table>
-            
+        
+        <!--List of house sitters with images and descriptions-->
         <table class="table-center display-table houseSitterSpacing">
             <tr>
                 <td>
                     <table class="cell">
                         <tr>
+                            <!-- Each house sitter is displayed in a table cell with an image, name, description, and a booking button -->
                             <td class="cell-collapse"><img class="houseSitter" src="images/sitter1.jpg" alt="Sitter 1"></td>
                             <td>
                                 <table>
@@ -140,6 +145,8 @@ Our sitters come from a wide range of backgrounds, including experienced pet own
             </tr>
         </table>
     </body>
+
+    <!--Footer section with social media links-->
     <footer>
         <section class="header-footer">
             <table class="socials">
