@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     } else {
 
         // If the username or password is incorrect, set an error message
-        $login_error = "Incorrect username or password.";
+        $login_error = "Invalid username or password.";
 
     }
 }
@@ -115,12 +115,16 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </form>
     </body>
     <!--Footer section with social media links-->
-    <footer class="header-footer">
-        <table class="socials">
-            <tr>
-                <td><a href="https://www.instagram.com"><img class="socials-img" src="images/instagram.jpg" alt="Instagram"></a></td>
-                <td><a href="https://www.facebook.com"><img class="socials-img" src="images/facebook.jpg" alt="Facebook"></a></td>
-            </tr>
-        </table>
+    <footer>
+        <section class="header-footer">
+            <div class="socials">
+                <table>
+                    <tr>
+                        <td><a href="https://www.instagram.com"><img class="socials-img" src="images/instagram.jpg" alt="Instagram"></a></td>
+                        <td><a href="https://www.facebook.com"><img class="socials-img" src="images/facebook.jpg" alt="Facebook"></a></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
     </footer>
 </html>
