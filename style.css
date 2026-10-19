@@ -51,7 +51,7 @@ h2{
 /* Style for the icon logo icon */
 .icon{
     width: 6vw;
-    height: auto;
+    height: 6vw;
 }
 
 /* Style for the banner image */
@@ -232,8 +232,8 @@ button:hover{
     overflow: hidden;
     border: 2px solid black;
     border-spacing: 0;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     width: 40%;
 }
 
@@ -298,4 +298,58 @@ div.socials{
     display: flex;
     gap: 20px;
     margin-top: 15px;
+}
+
+div.account-header {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 25vw;
+}
+
+.account-header{
+    background-color: #F4F4F9b3;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-radius: 10px;
+}
+
+.footer-table{
+    width: 100%;
+    height: 100%;
+    border-spacing: 0;
+    padding: 0;
+}
+
+.footer-table a{
+    text-decoration: none;
+    color: #F4F4F9;
+}
+
+.footer-table a:hover{
+    text-decoration: underline;
+    color: #F4F4F9;
+}
+
+.footer-links{
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    width: 40%;
+    bottom: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text p{
+    font-family: 'Inter';
+    font-size: 1vw;
+    color: #F4F4F9;
 }

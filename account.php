@@ -80,12 +80,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 			</div>
 		</section>
 
-        <!--Banner image with text-->
-        <div class="banner-box">
-            <img class="banner" src="images/bannerAccount.png" alt="Banner">
-            <div class="banner-text">
-                <h1>Account</h1>
-            </div>
+        <div class="account-header">
+            <h1>Account</h1>
         </div>
 
         <!--Login form-->
@@ -117,13 +113,28 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <!--Footer section with social media links-->
     <footer>
         <section class="header-footer">
-            <div class="socials">
-                <table>
-                    <tr>
-                        <td><a href="https://www.instagram.com"><img class="socials-img" src="images/instagram.jpg" alt="Instagram"></a></td>
-                        <td><a href="https://www.facebook.com"><img class="socials-img" src="images/facebook.jpg" alt="Facebook"></a></td>
-                    </tr>
-                </table>
+            <div class="footer">
+                <div class="socials">
+                    <table>
+                        <tr>
+                            <td><a href="https://www.instagram.com"><img class="socials-img" src="images/instagram.jpg" alt="Instagram"></a></td>
+                            <td><a href="https://www.facebook.com"><img class="socials-img" src="images/facebook.jpg" alt="Facebook"></a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="footer-links">
+                    <table class="footer-table">
+                        <tr>
+                            <td><a href="index.html">Home</a></td>
+                            <td><a href="houseSitters.html">House sitters</a></td>
+                            <td><a href="contact.html">Contact</a></td>
+                            <td><a href="about.html">About us</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="footer-text">
+                    <p>© 2024 Trusted House Sitters. All rights reserved.</p>
+                </div>
             </div>
         </section>
     </footer>
